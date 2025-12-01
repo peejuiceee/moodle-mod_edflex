@@ -65,9 +65,19 @@ class import_activity extends external_api {
 
     /**
      * Executes the function to request an access token using the provided API URL, client ID, and client secret.
+     *
+     * @param array $edflexid The Edflex content IDs.
+     * @param int $course The course ID.
+     * @param int $section The section ID.
+     * @param ?client $client The client instance.
+     *
+     * @return array The result of the import.
      */
     public static function execute(array $edflexid, int $course, int $section, ?client $client = null): array {
-        require_capability('mod/edflex:addinstance', context_system::instance());
+        $context = context_system::instance();
+        self::validate_context($context);
+        require_capability('mod/edflex:addinstance', $context);
+
         $data = self::validate_parameters(
             self::execute_parameters(),
             compact('edflexid', 'course', 'section')

